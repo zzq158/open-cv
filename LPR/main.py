@@ -136,6 +136,8 @@ def license_segment(car_plates,img):
     return "card_img.jpg"
 
 
+########
+
 if __name__ == "__main__":
     img = read_photo("20180327150557438.png")  # 彩色图
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # 灰色图
